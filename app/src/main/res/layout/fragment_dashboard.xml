@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingHorizontal="40dp"
     tools:context=".ui.dashboard.DashboardFragment">
@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <ImageView
@@ -199,7 +199,7 @@
                 android:id="@+id/btn_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="?android:attr/selectable"
+                android:background="?android:attr/selectableItemBackground"
                 android:text="Set Time"
                 android:textAllCaps="false"
                 android:textColor="@color/gray"
@@ -208,9 +208,10 @@
             <Button
                 android:id="@+id/done"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:paddingHorizontal="50dp"
+                android:layout_marginBottom="60dp"
                 android:backgroundTint="@color/dusty_rose"
                 android:text="@string/done" />
 
