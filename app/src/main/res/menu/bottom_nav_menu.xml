@@ -11,5 +11,10 @@
         android:icon="@drawable/ic_baseline_add_box_24"
         android:title="@string/title_add" />
 
+    <item
+        android:id="@+id/navigation_entrenamiento"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="Entrenamiento" />
+
 
 </menu>

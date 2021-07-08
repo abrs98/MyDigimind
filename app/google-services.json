@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798205935228",
+    "project_id": "mydigimind-9f656",
+    "storage_bucket": "mydigimind-9f656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798205935228:android:bab3d0dcfb9aea85ce13f9",
+        "android_client_info": {
+          "package_name": "barrios.abrahan.mydigimind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798205935228-bg93qda317h8s8stgomrv2pu2h2ukunk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBojWrttMtngwSQEiURg9Aa2KrE1y694Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798205935228-bg93qda317h8s8stgomrv2pu2h2ukunk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
