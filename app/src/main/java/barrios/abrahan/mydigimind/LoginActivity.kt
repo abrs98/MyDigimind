@@ -22,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        mAuth = FirebaseAuth.getInstance();
+        mAuth = FirebaseAuth.getInstance()
 
         val btn_registrarse: Button = findViewById(R.id.btn_registrarse)
         val btn_contra: TextView = findViewById(R.id.tv_olvidasteContra)
@@ -68,7 +68,7 @@ class LoginActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
                         //Log.d(TAG, "signInWithEmail:success")
-                        val user: FirebaseUser? = mAuth.getCurrentUser()
+                        //val user: FirebaseUser? = mAuth.getCurrentUser()
 
                         val intent: Intent = Intent(this,MainActivity::class.java)
                         startActivity(intent)
